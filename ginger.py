@@ -1,9 +1,12 @@
-class Ginger:
-    def __init__(self, mood, outfit):
-        self.mood = mood
-        self.outfit = outfit
+class Profile:
+    def __init__(self, name, email, age, password):
+        self.name = name
+        self.email = email
+        self.age = age
+        self.password = password
 
-ginger1= Ginger("Angry", "Bowtie")
-ginger2= Ginger("Happy", "Buttons")
+user1 = Profile("Matt", "matthewrgunn@upperline.com", 43, "Chewie")
+user2 = Profile("Chewie", "chewie@upperline.com", 2, "_M@tt!"_)
+user3 = Profile("Maddie", "maddie@gmail.com", 10, "Dadisthebest")
 
-print(ginger1.mood)
+print(user1.email)
